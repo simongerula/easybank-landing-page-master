@@ -31,7 +31,6 @@ body {
     width: 70vw;
     padding: 10px;
     border-radius: 5px;
-    line-height: 240%;
 }
 .close-icon {
     position: absolute;
@@ -40,6 +39,7 @@ body {
 .link-item {
     width: 100%;
     text-align: center;
+    height: 22%;
 }
 .link-item a {
     text-decoration: none;
@@ -55,8 +55,9 @@ body {
     color: white;
     font-weight: 700;
     font-size: 16px;
-    margin: auto;
+    margin: 15px auto;
     display: none;
+    cursor: pointer;
 }
 .togle-menu {
     border: none;
@@ -97,7 +98,6 @@ body {
     margin-top: 5%;
 }
 .mobile {
-    margin-top: 5%;
     display: block;
 }
 .about-container {
@@ -147,9 +147,33 @@ body {
 .footer {
     background-color: hsl(233, 26%, 24%);
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+}
+.footer-icons {
+    text-align: center;
+    padding-top: 50px;
 }
 .footer-brand {
-    width: 300px;
+    height: 25px;
+}
+.icon-list {
+    padding: 15px 0;
+}
+.icon-list-item {
+    width: 30px;
+    margin: 0 10px;
+}
+.footer-nav {
+    padding: 10px 0;
+    text-align: center;
+}
+.link-footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+}
+.footer-request {
+    text-align: center;
+}
+.footer-request p {
+    margin-top: 10px;
 }
